@@ -7,13 +7,13 @@ body {
 h1 {
     text-align: center;
     font-weight: 500;
-    font-size: 400%;
+    font-size: 50pt;
     color: white;   
 }
 
 #header {
     background-color: #1B1233;
-    padding: 15.5%;
+    padding: 15.4%;
     text-align: center;  
     margin: auto;   
 }
@@ -21,6 +21,7 @@ h1 {
 .icone {
     padding: 1%;
     margin-bottom: 8%;
+    
 }
 
 #about-button {
@@ -36,29 +37,33 @@ h1 {
     font-size: 20pt;
     background-color:#373475 ;
     color:white;
-    position: relative;
-    height: 400px;
-    padding: 3px;    
+    text-align: center;
+    padding: 4.3%;
+    padding-top: 8%;
+      
 }
 
 #profileImage {
-    float: left;
+   
     border: 5px solid #25eedda9;
     border-radius: 50%;
     object-fit: cover;
     height: 250px;
     width: 250px;
-    position: absolute;
-    margin-left: 4%;  
+    transform: translateY(-30%);
+  
+    
 }
 
 #profileText { 
     width: 50%;
-    position: absolute;
+   
     font-size: 16pt;
-    margin-left: 25%;
+    
     color:white;
-    line-height: 1.5em;  
+    line-height: 1.5em; 
+    margin: auto;
+    width: 70%;
 }
 
 h2 {
@@ -70,7 +75,7 @@ h2 {
     background-color: #5B76BD;
     text-align: center;
     list-style: none;
-    height: 386px;
+    
     font-size: 16pt;
     font-weight: 500;   
 }
@@ -85,7 +90,7 @@ h2 {
 
 ul {
     background-color: #1B1233;
-    padding: 1%;
+    padding: 0.8%;
     margin: 0;
     color: white;
 }
@@ -97,8 +102,13 @@ ul {
     color: white;
 }
 
+li:last-of-type:hover {
+    background-color: #FF5725;
+    color:#E3EDE1;
+}
+
 li:hover {
-    background-color: #21C9CC;
+    background-color: #0F88D9;
     color:#D4FEFF ;
 }
 
