@@ -1,78 +1,108 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0pt;
-}    
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: Helvetica, sans-serif;
+}
 
 h1 {
-    font-size: 25pt;
-    margin-top: -40pt;
-    font-weight: 300;
+    text-align: center;
+    font-weight: 500;
+    font-size: 400%;
+    color: white;   
 }
 
-
-
+#header {
+    background-color: #1B1233;
+    padding: 15.5%;
+    text-align: center;  
+    margin: auto;   
+}
 
 .icone {
-    width: 30px;
-    padding: 2%;
-    
+    padding: 1%;
+    margin-bottom: 8%;
 }
 
-#button {
-    background-color: #34AEBE;
-    text-align: center;
-    border-style: none;
-    width: 10%;
-    position:relative;
-    padding: 2%;
-    font-size: 16pt;
-    border-radius: 10px;
-    margin-top: 20pt;
-
+#about-button {
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+    background-color: #5B76BD;
+    padding: 1%;
+    border-radius: 6%;    
 }
 
-#parte1{
-color: whitesmoke;
-text-align: center;
-background-color: #082E43;
-padding: 25%;
+#about {
+    font-size: 20pt;
+    background-color:#373475 ;
+    color:white;
+    position: relative;
+    height: 400px;
+    padding: 3px;    
 }
 
-#sobre {
-    color: whitesmoke;
-    background-color: #374247;
-    text-align: center;
-    padding: 10px;
-    display: inline-block;
-
-}
-
-#bio {
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-}
-
-#foto {
-    width: 200px;
-    
-    background-color: #ddd;
-    border-radius: 100%;
-    height: 200px;
+#profileImage {
+    float: left;
+    border: 5px solid #25eedda9;
+    border-radius: 50%;
     object-fit: cover;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    margin-left: 4%;  
+}
+
+#profileText { 
+    width: 50%;
+    position: absolute;
+    font-size: 16pt;
+    margin-left: 25%;
+    color:white;
+    line-height: 1.5em;  
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;   
 }
 
 .lista {
-    color: whitesmoke;
-    width: 100%;
-   
-    
-    background-color: #117E71;
-    padding: 100px;
-
-
+    background-color: #5B76BD;
+    text-align: center;
+    list-style: none;
+    height: 386px;
+    font-size: 16pt;
+    font-weight: 500;   
 }
-li {
+
+#linktrybe {
+    color: white;    
+}
+
+#linktrybe:hover {
+    color: #9AFCE7;
+}
+
+ul {
+    background-color: #1B1233;
+    padding: 1%;
+    margin: 0;
+    color: white;
+}
+
+.lista li {
+    line-height: 1.5em;
+    padding: 15px;
+    font-size: 18pt;
+    color: white;
+}
+
+li:hover {
+    background-color: #21C9CC;
+    color:#D4FEFF ;
+}
+
+
     
 
-}
+
