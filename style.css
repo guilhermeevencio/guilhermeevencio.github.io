@@ -6,9 +6,16 @@ body {
 
 h1 {
     text-align: center;
-    font-weight: 500;
-    font-size: 50pt;
-    color: white;   
+    font-weight: 400;
+    font-size:35px;
+    color: white; 
+    padding-bottom: 6%;  
+}
+
+.nome {
+    text-align: center;
+    margin-left: 0;
+    display: block;
 }
 
 #header {
@@ -16,17 +23,18 @@ h1 {
     padding: 15.4%;
     text-align: center;  
     margin: auto;   
+    padding-bottom: 18%;
 }
 
 .icone {
     padding: 1%;
     margin-bottom: 8%;
-    
+    width: 40px;   
 }
 
 #about-button {
     text-decoration: none;
-    font-size: 200%;
+    font-size: 150%;
     color: white;
     background-color: #5B76BD;
     padding: 1%;
@@ -39,7 +47,9 @@ h1 {
     color:white;
     text-align: center;
     padding: 4.3%;
-    padding-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+
       
 }
 
@@ -50,32 +60,27 @@ h1 {
     object-fit: cover;
     height: 250px;
     width: 250px;
-    transform: translateY(-10%);
-  
-    
+    transform: translateY(-4%);   
 }
 
 #profileText { 
-    width: 50%;
-   
+    width: 100%; 
     font-size: 16pt;
-    
     color:white;
     line-height: 1.5em; 
-    margin: auto;
-    width: 70%;
+    margin: auto; 
 }
 
 h2 {
     text-align: center;
-    font-weight: 500;   
+    font-weight: 500;
+    display: inline;   
 }
 
 .lista {
     background-color: #5B76BD;
     text-align: center;
     list-style: none;
-    
     font-size: 16pt;
     font-weight: 500;   
 }
@@ -97,7 +102,7 @@ ul {
 
 .lista li {
     line-height: 1.5em;
-    padding: 15px;
+    padding: 12px;
     font-size: 18pt;
     color: white;
 }
